@@ -1,0 +1,165 @@
+   
+header {
+    background-color: #e1e0de;
+    padding: 10px;
+     justify-content: space-between;
+align-items: center;
+    
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ section {
+    background-color: #9aa89b;
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.section-left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.section-right {
+    flex: 1;
+}
+
+.section-right img {
+    max-width: 100%; 
+height: auto;
+}
+
+.welcome-text {
+    margin-bottom: 20px;
+}
+
+.catalogue-button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+section {
+    background-color: #e1e0de; 
+    padding: 20px;
+}
+
+.featured-collections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.collection-image {
+    margin: 0 10px;
+}
+
+.collection-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.collection-points {
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+
+.brown-section {
+    background-color: #beb6ae
+    
+}
+
+.new-arrivals {
+    margin-bottom: 20px;
+    color: rgb(11, 11, 11);
+    text-align: center;
+
+    
+}
+
+.arrival-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.arrival-images > div {
+margin: 0 10px; 
+text-align: center; 
+}
+
+.arrival-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 60px;
+    margin-top: 40px;
+}
+
+.arrival-info {
+    color: rgb(11, 11, 11);
+}
+footer {
+    background-color: #e1e0de;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.quick-links,
+.contact,
+.help {
+    margin-bottom: 20px;
+}
+
+.contact-logos img {
+    max-width: 50px; 
+    height: auto;
+}
+.contact-logos {
+text-align: right;
+}
+
